@@ -1,0 +1,4 @@
+# This file contains a number of forgery states (states where timestamp forgery
+# has been detected)
+Use of a time-stamp change tool
+Use of a time-stamp change tool which rounds on seconds
