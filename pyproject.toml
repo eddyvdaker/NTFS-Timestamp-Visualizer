@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ntfs-timestamp-visualizer"
+version = "0.1.0"
+description = ""
+authors = ["Eddy van den Aker <eddy.v.d.aker@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+graphviz = "^0.19"
+python-dateutil = "^2.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
