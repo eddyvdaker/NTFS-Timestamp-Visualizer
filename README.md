@@ -1,5 +1,5 @@
 # NTFS-Timestamp-Visualizer
-NTFS Timestamp Visualizer takes the input from [NTFS Timestamp Analyser], which analyses NTFS timestamps and reconstructs the possible histories in terms of operations on files, and creates a tree-based visualization of these histories.
+NTFS Timestamp Visualizer takes the input from [NTFS Timestamp Analyser](https://github.com/JelleBouma/TimestampAnalyser), which analyses NTFS timestamps and reconstructs the possible histories in terms of operations on files, and creates a tree-based visualization of these histories.
 
 ## Installation
 Follow the steps below to install NTFS Timestamp Visualizer:
@@ -89,3 +89,7 @@ With filter:
 python timestamp_visualizer.py -f ".\Folder\test2.odt" sample-input.txt
 ```
 
+## Publication
+This tool is a part of the following publication:
+
+* Jelle Bouma, Hugo Jonker, Vincent van der Meer, and Eddy Van Den Aker. 2023. Reconstructing Timelines: From NTFS Timestamps to File Histories. In _The 18th International Conference on Availability, Reliability and Security (ARES 2023), August 29--September 01, 2023, Benevento, Italy._ ACM, New York, NY, USA 9 Pages. https://doi.org/10.1145/3600160.3605027
